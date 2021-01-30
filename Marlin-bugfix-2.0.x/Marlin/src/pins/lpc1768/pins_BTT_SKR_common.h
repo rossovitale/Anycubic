@@ -62,7 +62,8 @@
 //  3.3V max when defined as an analog input
 //
 #ifndef TEMP_0_PIN
-  #define TEMP_0_PIN                    P0_24_A1  // A1 (T1) - (68) - TEMP_0_PIN
+  //#define TEMP_0_PIN                    P0_24_A1  // A1 (T1) - (68) - TEMP_0_PIN
+  #define TEMP_0_PIN                    P0_23_A0  // A1 (T1) - (68) - TEMP_1_PIN
 #endif
 #ifndef TEMP_1_PIN
   #define TEMP_1_PIN                    P0_25_A2  // A2 (T2) - (69) - TEMP_1_PIN
